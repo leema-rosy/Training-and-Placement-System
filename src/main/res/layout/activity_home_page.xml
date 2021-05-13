@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/logo"
+    android:fillViewport="true"
+    android:padding="16dp"
+    tools:context=".HomePage">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/sjc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="cursive"
+            android:text="Student Login"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/login" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="cursive"
+            android:text="Company Login"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/login" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="𝑻𝒓𝒂𝒊𝒏𝒊𝒏𝒈 𝑨𝒏𝒅 𝑷𝒍𝒂𝒄𝒆𝒎𝒆𝒏𝒕 𝑪𝒆𝒍𝒍       Director's Profile"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:src="@drawable/mahi" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="Dr. M. Mahendran
+        Director - Training, Placement and Corporate Relations
+     +91-97900-14158
+    0431-4226419. Extn.:6419
+    placement@mail.sjctni.edu"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="About Him"
+            android:textSize="36dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr.M.Mahendran, M.Sc., M.S.W., SLET, NET, NET, PhD (HRM). He did his M.Sc. from M.K. University, Madurai. He completed his MSW from Loyola College, Chennai. He has done his Research work in Human Resource Management with special reference to Job Stress . He has 23 years of teaching experience in various capacities as HoD and Director (T And P) in reputed Colleges and Universities. He proved his mettle in the position of HR Manager in an MNC for two years. His academic interests are in the areas of HRM and Counselling. He has a wider contact and network with corporates, MNCs and various industries. He is a national level HR Trainer, so far he has trained more than one lakh people to his credit from various settings like educational institutions, corporates, MNCs and industries for the past 20 years. The knowledge, competence and experience gained from various educational institutions and MNCs have made him as an effective leader. He had been moulding and shaping the students community to meet out the expectations of employers in this competitive world. He recently received a national award RAJA VIDYA  from Brevity's Achievements Award Committee, Bangalore and IBC India Advisory Board for his contributions in the field of soft and behavioural skills training."
+
+            android:textColor="@color/black"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

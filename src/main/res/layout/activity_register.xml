@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/logo"
+    tools:context=".Register">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="𝓦𝓮𝓵𝓬𝓸𝓶𝓮 𝓽𝓸 𝓡𝓮𝓰𝓲𝓼𝓽𝓻𝓪𝓽𝓲𝓸𝓷 𝓟𝓪𝓰𝓮"
+        android:textSize="40dp"
+        android:textColor="@color/black"/>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/et_username"
+    android:background="@drawable/input"
+    android:textAlignment="center"
+    android:drawableLeft="@drawable/ic_person"
+    android:drawableTint="@color/black"
+    android:layout_marginTop="20dp"
+    android:hint="Enter Your Fullname"
+    android:padding="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:gravity="center_horizontal" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/et_email"
+        android:background="@drawable/input"
+        android:hint="Enter Your Email ID"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawableTint="@color/black"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_pass"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawableTint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Enter Your Password"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_conpass"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawableTint="@color/black"
+        android:inputType="textPassword"
+        android:hint="Confirm your password"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:fontFamily="cursive"
+        android:text="Register"
+
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:backgroundTint="#F8F6F6" />
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Already Have an Account! SignIn"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

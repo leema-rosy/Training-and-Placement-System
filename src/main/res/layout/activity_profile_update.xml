@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/logo"
+    tools:context=".ProfileUpdateActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Your Profile"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_name"
+        android:drawableTint="#070706"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:padding="8dp"
+        android:background="@drawable/input"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="8dp"
+        android:hint="Enter Your  Name" />
+
+
+    <EditText
+        android:id="@+id/et_dno"
+        android:textSize="18dp"
+        android:drawableTint="#050901"
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/ic_dno"
+        android:drawablePadding="8dp"
+        android:hint="Enter Department Number "
+        android:paddingTop="22dp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:textSize="18dp"
+        android:drawableTint="#111211"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:hint="Enter Email"
+        android:paddingTop="22dp" />
+    <EditText
+        android:id="@+id/et_pass"
+        android:textSize="18dp"
+        android:drawableTint="#111211"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:drawablePadding="8dp"
+        android:hint="Enter Password"
+        android:paddingTop="22dp" />
+
+    <EditText
+        android:id="@+id/et_mobile"
+        android:textSize="18dp"
+        android:drawableTint="#050B01"
+        android:padding="8dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:drawableLeft="@drawable/ic_phone"
+        android:drawablePadding="8dp"
+        android:hint="Enter Mobile"
+        android:paddingTop="22dp" />
+
+    <EditText
+        android:id="@+id/et_department"
+        android:textSize="18dp"
+        android:drawableTint="#091201"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:background="@drawable/input"
+        android:drawableLeft="@drawable/ic_degree"
+        android:drawablePadding="8dp"
+        android:hint=" Enter Department "
+        android:paddingTop="22dp" />
+
+    <EditText
+        android:id="@+id/et_collegename"
+        android:textSize="18dp"
+        android:drawableTint="#0E1E00"
+        android:padding="8dp"
+        android:background="@drawable/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_college"
+        android:drawablePadding="8dp"
+        android:hint=" Enter College Name"
+        android:paddingTop="22dp" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rb_male"
+            android:paddingRight="22dp"
+            android:text="Male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <RadioButton
+            android:id="@+id/rb_female"
+            android:text="Female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/input"
+        android:backgroundTint="@color/white"
+        android:text="Update"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textAllCaps="false"
+        android:textSize="15dp" />
+
+</LinearLayout>
