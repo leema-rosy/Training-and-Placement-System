@@ -1,7 +1,8 @@
 # Training-and-Placement-System
 SJC- Training and Placement System
+
 Android App Using Java And Firebase
-Screen Shots
+# Screen Shots
 
 ![WhatsApp Image 2021-03-25 at 11 49 50 PM (7)](https://user-images.githubusercontent.com/71251063/118220952-6b1da400-b49a-11eb-9437-57fdadd4245d.jpeg)
 ![WhatsApp Image 2021-03-25 at 11 49 50 PM (6)](https://user-images.githubusercontent.com/71251063/118220960-6f49c180-b49a-11eb-9427-da5b39cc00a4.jpeg)
